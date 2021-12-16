@@ -1,0 +1,160 @@
+body{
+    background-color: rgb(230, 230, 230);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#main{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+#header-top{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-top img {
+    margin-left: 100px;
+    border-right: 1px solid grey;
+    padding-right: 27px;
+}
+
+#lang{
+    margin-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid grey;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#lang h5{
+    margin: 0;
+    font-size: 16px;
+}
+
+#money h5{
+    margin: 0;
+    font-size: 16px;
+}
+
+#money{
+    margin-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid grey;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#social-header{
+    margin-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid grey;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 110px;
+    
+}
+
+#social-header svg{
+    opacity: 0.5;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+#header-phone h5{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+#header-phone svg{
+    opacity: 0.7;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+
+#header-phone{
+    margin-left: 25px;
+    padding-right: 25px;
+    border-right: 1px solid grey;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-control{
+    background-color: #EFF3F6;
+    border-radius: 0;
+    border:none;
+    height: 40px;
+    width: 185px;
+    padding: 0;
+    padding-left: 20px;
+}
+
+#header-search-icon-red{
+    width: 40px;
+    height: 40px;
+    background-color: #DD4053;
+}
+
+#header-search-first{
+    display: flex;
+    flex-direction: row;
+}
+#header-search{
+    margin-left: 25px;
+    height: 72px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#header-phone-numbers{
+    margin-right: 10px;
+}
+
+#social-header svg:hover{
+    opacity: 1;
+}
+
+#header-phone svg:hover{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "SuisseIntlTrial-Regular";
+    src: url(font/SuisseIntlTrial-Regular.otf);
+}
