@@ -9,12 +9,37 @@ body{
     background-color: white;
 }
 
+header{
+    display: flex;
+    flex-direction: column;
+}
+
 #header-top{
     height: 100px;
     width: 100%;
     display: flex;
     flex-direction: row;
     align-items: center;
+    border-bottom: 1px solid rgb(177, 177, 177) ;
+}
+
+#header-bottom{
+    height: 70px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 1px solid rgb(177, 177, 177) ;
+    padding: 0 174px;
+    justify-content: space-around;
+}
+
+#header-bottom h5,svg{
+    opacity: 0.6;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
 }
 
 #header-top img {
@@ -113,11 +138,24 @@ body{
     width: 40px;
     height: 40px;
     background-color: #DD4053;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#header-search-first{
+#header-search-icon-green{
+    width: 40px;
+    height: 40px;
+    background-color: #00d579;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-search-first, #header-search-second{
     display: flex;
     flex-direction: row;
+    margin: 0 15px;
 }
 #header-search{
     margin-left: 25px;
@@ -125,6 +163,16 @@ body{
     display: flex;
     flex-direction: row;
     align-items: center;
+   
+}
+
+
+#header-bottom svg:hover{
+    opacity:1;
+}
+
+#header-bottom h5:hover{
+    opacity:1;
 }
 
 #header-phone-numbers{
@@ -138,6 +186,8 @@ body{
 #header-phone svg:hover{
     opacity: 1;
 }
+
+
 
 
 
